@@ -77,7 +77,7 @@
 
 <div class="container">
 
-  <h1>FJSP-LB-MK</h1>
+  <h1>A Deep Reinforcement Learning Method for Flexible Job Shop Scheduling under Limited Buffers and Material Kitting Constraints</h1>
 
   <div class="authors">
     Shishun Zhang, Juzhan Xu, Yidan Fan, Chenyang Zhu, Ruizhen Hu, Yongjun Wang, Kai Xu,<br>
@@ -85,14 +85,13 @@
   </div>
 
   <div class="section">
-    <h2>Abstract</h2>
+    <h2>Description</h2>
     <p>
-     The Flexible Job Shop Scheduling Problem (FJSP) is a combinatorial optimization problem that originates from real-world production lines. 
-     General studies have idealized jobs (workpieces) as units without spatial attributes, neglecting complexities such as material storage and buffer occupancy. 
-     However, the constraints of limited buffer (LB) and material kitting (MK), common in real production lines, often lead to process blockages and significantly impact overall efficiency. 
-     This motivates our study of FJSP-LB-MK. In recent years, deep reinforcement learning (DRL) has demonstrated considerable potential in scheduling problems. However, its capacity for state modeling remains limited when addressing complex dependencies and long-term shared-resource constraints. To address this, we leverage the advantages of DRL in sequential decision-making while constructing a relation-graph-based scheduling network to model the global state and output scheduling decisions. By establishing an efficient message-passing mechanism between machines, operations, and buffers, the network exhibits a scheduling preference that balances makespan with pallet change frequency, thereby improving overall decision quality. To validate this approach, we introduce synthetic and real-world production line datasets, followed by extensive performance evaluations and ablation studies. The experimental results demonstrate that the proposed method outperforms traditional heuristics and advanced DRL methods in terms of makespan and pallet-change frequency, while also achieving a good balance between solution quality and computational cost.
-     Additionally, a supplementary video provides a production line simulation demonstration to intuitively compare scheduling behaviors of different methods.
-    </p>
+     This video demonstrates the simulation of a production line for the FJSP-LB-MK problem, implemented in Siemens Plant Simulation.  
+
+Steel plates (jobs) are first released from the loading storage and dispatched to parallel machines via the loading queue. After plate transfer and cutting, the resulting parts are conveyed to the sorting stage, where robotic stations with limited pallets perform part sorting.
+
+The simulation provides an intuitive visualization of the scheduling process and a comparison of the scheduling behaviors of different methods.   </p>
   </div>
 
   <div class="section">
